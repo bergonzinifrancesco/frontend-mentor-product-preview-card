@@ -12,7 +12,7 @@ export default function App({ Component }: PageProps) {
         <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
       </head>
       <body>
-        <main class="flex flex-col items-center justify-center bg-cream py-6">
+        <main class="flex flex-col items-center justify-center bg-cream py-6 h-svh">
           <Component />
         </main>
       </body>
