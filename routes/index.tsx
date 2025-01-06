@@ -13,7 +13,7 @@ export default function Home() {
           <div class="text-dark-cyan font-serif text-3xl font-bold">$149.99</div>
           <div class="text-dark-grayish-blue line-through text-sm desktop:text-center">$169.99</div>
         </div>
-        <footer class="bg-dark-cyan p-3 text-center text-white text-xs font-bold h-fit flex flex-row justify-center gap-3 rounded-md">
+        <footer role="button" class="bg-dark-cyan p-3 text-center text-white text-xs font-bold h-fit flex flex-row justify-center gap-3 rounded-md hover:bg-very-dark-cyan">
           <image alt="Cart icon" src="/icon-cart.svg" />
           <p>Add to Cart</p>
         </footer>

@@ -11,6 +11,7 @@ export default {
         desktop: '1440px'
       },
       colors: {
+        "very-dark-cyan": "hsl(158, 36%, 17%)",
         "dark-cyan": "hsl(158, 36%, 37%)",
         "cream": "hsl(30, 38%, 92%)",
         "very-dark-blue": "hsl(212, 21%, 14%)",
