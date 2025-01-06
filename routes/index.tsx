@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <section class="mobile:flex desktop:grid desktop:grid-cols-2 mobile:flex-col mobile:w-[335px] desktop:w-[550px] h-fit">
-      <div role="region" alt="Perfume" class="desktop:bg-product-desktop mobile:bg-product-mobile mobile:h-[240px] w-full bg-cover desktop:h-full mobile:rounded-t-lg desktop:rounded-none desktop:rounded-l-lg" />
+      <div role="region" class="desktop:bg-product-desktop mobile:bg-product-mobile mobile:h-[240px] w-full bg-cover desktop:h-full mobile:rounded-t-lg desktop:rounded-none desktop:rounded-l-lg" />
       <div role="group" class="flex flex-col p-6 gap-3 desktop:gap-4 bg-white mobile:rounded-b-lg desktop:rounded-none desktop:rounded-r-lg">
         <p class="font-sans text-2xs tracking-[.2rem] uppercase text-dark-grayish-blue">Perfume</p>
         <h1 class="font-serif text-3xl font-bold leading-[1.8rem] text-very-dark-blue">Gabrielle Essence Eau De Parfum</h1>
